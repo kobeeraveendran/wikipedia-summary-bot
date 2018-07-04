@@ -1,1 +1,1 @@
-"# wikipedia-summary-bot" 
+# wikipedia-summary-bot
