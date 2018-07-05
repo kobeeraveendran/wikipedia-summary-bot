@@ -29,6 +29,7 @@ for comment in reddit.subreddit('all').stream.comments():
             try:
                 default_summary = wikipedia.summary(topic)
                 summary = default_summary.split('\n')[0]
+                comment.reply(summary)
             except:
                 print('Failed on query: ' + topic)
                 continue
